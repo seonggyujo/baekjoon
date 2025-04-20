@@ -13,13 +13,9 @@ int main()
         H = H -1;              //마이너스일때는 시간을 -1
 
         if(H<0) H=23;          //시간이 음수일때 23으로 설정
-        
-        printf("%d %d", H,M);
     }
-    else if(M>=0)              //M 분이 양수일때는 그냥 출력하면 됨
-    {
-        printf("%d %d", H,M);
-    }
+    
+    printf("%d %d\n", H, M);
     
     return 0;
 }
